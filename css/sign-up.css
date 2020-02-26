@@ -1,0 +1,35 @@
+.sign-form select {
+    height: 3em;
+    padding-right: 1em;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    margin: 1em 0;
+}
+.store-img {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    margin: 1em;
+}
+.store-img button {
+    background-image: url('default-image.jpg');
+    background-size: cover;
+    margin: 0 ;
+    margin-right: 1em;
+    border-radius: 5px;
+    width: 100px;
+}
+.store-img h4 {
+    margin-top: 10px;
+}
+.terms {
+     
+    padding: 1em;
+    text-align: right;
+
+}
+.terms a {
+    color: rgb(182, 21, 62);
+    text-decoration: none;
+}

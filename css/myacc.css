@@ -1,0 +1,66 @@
+.my-account .row {
+    justify-content: center;
+}
+.account {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background: rgb(233,27,114);
+background: linear-gradient(176deg, rgba(233,27,114,1) 0%, rgba(162,0,65,1) 100%);
+border-radius: 20px;
+margin: 30px 0;
+    
+}
+.acc-img {
+
+    width: 30%;
+    display: block;
+    margin: 1em auto;
+    border-radius: 50%;
+}
+.acc-img img {
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.acc-img button {
+    border: 0;
+    width: 100%;
+    background: none;
+    border-radius: 50%;
+}
+.acc-info{
+    display: flex;
+    flex-direction: column;
+}
+.acc-info input{
+    width: 90%;
+    margin: 1em auto ;
+    height: 3em;
+    border-radius: 20px;
+    border: 0;
+    padding: 0 10px;
+    font-size: 20px;
+}
+textarea {
+    width: 90%;
+    margin: 1em auto ;
+    height: 5em;
+    border-radius: 20px;
+    border: 0;
+    padding:  10px;
+    font-size: 20px;
+
+}
+.save {
+    width: 200px;
+    background: none;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(28, 2, 39);
+    height: 50px;
+    margin: 1em auto;
+    color: white;
+    font-size: 20px;
+}

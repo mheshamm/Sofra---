@@ -1,0 +1,124 @@
+.panel-order {
+    width: 100%;
+    display: flex;
+    margin: 2em auto;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20px;
+
+
+}
+.tab-pane {
+    margin: 10px auto;
+}
+.order-img {
+    display: block;
+    width: 25%;
+    margin-left: 10px;
+    margin: 20px;
+}
+.order-img img{
+    display: block;
+    width: 100%;
+    margin: 1em 0 ;
+    border-radius: 50%;
+    border: 1px solid red;
+
+}
+.tab-content {
+    width: 100%;
+}
+.order-body{
+    color: rgb(182, 21, 62);
+    text-align: right;
+    margin: 2em 10px ;
+    padding-top: 2em;
+}
+.order-body h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.order-body p {
+    color: rgb(104, 104, 104);
+}
+.orders nav {
+    width: 100%
+}
+.nav-tabs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+.nav-tabs a {
+    background-color: #DE2C52;
+    color: white;
+    font-size: 2em;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 0px !important;
+    border: none;
+
+}
+.nav-tabs .nav-link.active {
+    background-color: #DE2C52;
+    color: white;
+    border: none;
+    border-radius: none;
+    border-bottom: 2px solid black;
+}
+.nav-tabs a:focus {
+    background-color: rgb(185, 18, 60);
+}
+.nav-tabs a:hover{
+    border: none;
+}
+.order-btn1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.order-btn1 .confirm {
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: #009422;
+} 
+.order-btn1 .delcine {
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: #EC3554;
+
+}
+@media only screen and (max-width: 770px) {
+    .panel-order {
+        flex-direction: column;
+
+    }
+    .order-img {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .order-body{
+        padding-top: 0px;
+    }
+    .nav-tabs a{
+        font-size: 15px !important;
+    }
+    .order-btn1 {
+        flex-direction: row;
+        justify-content: space-around ;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}

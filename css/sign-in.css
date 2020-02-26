@@ -1,0 +1,104 @@
+.signin {
+    background-image: url("bg img.png");
+    background-size: cover;
+    height: auto;
+    padding: 4em 0;
+}
+.col-md-6 , .col-sm-10 {
+    margin: 0 auto;
+}
+.sign-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 0;
+    border-radius: 20px;
+    box-shadow: 10px 10px  rgb(231, 231, 231);
+    background-color: white;
+}
+.img-sign {
+    display: flex;
+    justify-content: center;
+}
+.img-sign img{
+    width: 30%;
+    margin: 0 auto;
+    
+}
+.sign-form form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 1em auto;
+}
+.sign-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-form input {
+    width: 100%;
+    height: 3em;
+    border-radius: 20px;
+    margin: 1em 0;
+    padding-right: 1em;
+    border: 0;
+    background-color: rgb(226, 226, 226);
+}
+.sign-form button {
+    border: 0;
+    background-color: rgb(182, 21, 62);
+    color: white;
+    width: 50%;
+    height: 2em;
+    display: block;
+    margin: 0 auto;
+    font-size: 2em;
+    border-radius: 20px;
+}
+.forget {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    margin: 1em ;
+}
+.forget a {
+    text-decoration: none;
+    color: rgb(182, 21, 62);
+    font-size: 20px;
+}
+#forget {
+    margin-right: auto;
+}
+.create {
+    margin: 1em 0;
+}
+.create a {
+    background-color: rgb(182, 21, 62);
+    color: white;
+    width: 50%;
+    height: 2em;
+    display: block;
+    margin: 0 auto;
+    font-size: 2em;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 776px) {
+    .forget {
+        flex-direction: column;
+
+    }
+    #forget {
+        margin-right: 0;
+    }
+    .sign-form button {
+        font-size: 20px;
+    }
+    .create a { 
+        font-size: 20px;
+    }
+}

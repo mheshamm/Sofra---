@@ -1,0 +1,40 @@
+.offer-header {
+    width: 100%;
+    text-align: right;
+    margin: 1em 0;
+    padding: 0 1em;
+    color: rgb(182, 21, 62);
+}
+.offer-header h2 {
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+.offer-card {
+    width: 90%;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+
+}
+.offer-card img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+.add-offer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+
+}
+.add-offer button {
+    width: 250px;
+    height: 50px;
+    background-color:rgb(182, 21, 62) ;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
